@@ -1,0 +1,83 @@
+@font-face {
+    font-family: norse;
+    src: url(../source/Norse-Bold.otf);
+  }
+
+body {
+    display: flex;
+    flex: 1;
+    background: #E7E7E7;
+    font-family: Montserrat;
+}
+
+.logo-section {
+    background-image: url(../source/unsplash.jpg);
+    width: 30vw;
+    height: 100vh;
+    font-family: norse;
+    min-width: 240px;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+.name-area {
+    position: relative;
+    top: 20vh;
+    height: 10rem;
+    background: rgba(0, 0, 0, .2) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-area img{
+    width: 96px;
+}
+
+.name-area span{
+    font-size: 72px;
+    padding-top: 20px;
+}
+.main {
+    padding-top: 3rem;
+    height: 100vh;
+}
+
+.main p {
+    padding: 1rem 2rem;
+}
+
+.form-area {
+    background: white;
+    position: relative;
+    font-size: 2rem;
+    font-weight: 600;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form-area form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: initial;
+    gap: 2rem;
+    padding: 0 2rem;
+    padding-bottom: 2rem;
+    box-shadow: 20px;
+}
+
+.form-area form > div {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.form-area label {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.75rem;
+}
+
+.form-area input {
+    width: 100%;
+}
