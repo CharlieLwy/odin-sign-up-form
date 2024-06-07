@@ -13,7 +13,6 @@ body {
 .logo-section {
     background-image: url(../source/unsplash.jpg);
     width: 30vw;
-    height: 100vh;
     font-family: norse;
     min-width: 240px;
     position: -webkit-sticky;
@@ -22,7 +21,7 @@ body {
 
 .name-area {
     position: relative;
-    top: 20vh;
+    top: 10rem;
     height: 10rem;
     background: rgba(0, 0, 0, .2) ;
     display: flex;
@@ -39,45 +38,52 @@ body {
     padding-top: 20px;
 }
 .main {
-    padding-top: 3rem;
+    padding-top: 2rem;
     height: 100vh;
 }
 
-.main p {
-    padding: 1rem 2rem;
+.intro p {
+    padding: 0 2rem;
 }
 
-.form-area {
+.form-area p {
+    width: 100%;
+}
+
+.form-content {
     background: white;
     position: relative;
-    font-size: 2rem;
-    font-weight: 600;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.form-area form{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    flex-grow: initial;
     gap: 2rem;
     padding: 0 2rem;
     padding-bottom: 2rem;
-    box-shadow: 20px;
 }
 
-.form-area form > div {
+.form-content div {
     display: flex;
     flex-direction: column;
     width: 40%;
 }
 
-.form-area label {
+.form-content p{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.form-content label {
     text-transform: uppercase;
     font-weight: 500;
     font-size: 0.75rem;
 }
 
-.form-area input {
+.form-content input {
     width: 100%;
+}
+
+.button-content {
+    padding: 0 2rem;
+    padding-top: 2rem;
 }
